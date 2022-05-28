@@ -1,0 +1,176 @@
+/*
+    Unidades de Medida
+    px => pixel
+    vh => view height / a Altura da tela divido por 100
+    vw => view width / a Largura da tela divido por 100
+    cm => centímetro
+    topo => cima
+    inferior => baixo
+    esquerda => esquerda
+    direita => direita
+    largura => LARGURA
+    altura => ALTURA
+    background-image => Troca a imagem de fundo
+    font-size => Troca o tamanho do texto
+    color => Troca a cor do texto
+    font-family => Troca a fonte do texto
+    display => Troca a forma que o elemento se comporta na tela ( Ex: Fica sozinho na linha ou na mesma linha de outros elementos)
+    cursor => Muda o cursor do mouse
+    position => Serve para definir como posicionar os elementos na tela
+    border-radius => Arredonda as bordas
+    border => Muda a cor, o tamanho e o tipo de borda do elemento
+    float => Direcionar o elemento para um lado determinado
+    preenchimento => espaçamento interno
+    margin => espaçamento externo
+    text-align => Alinha o texto
+    */
+
+    * {
+      margem :  0 ;
+      preenchimento :  0 ;
+      box-sizing : border-box;
+      font-family :  'Montserrat' , sem serifa;
+  }
+  
+  
+  . caixa-superior {
+      imagem de fundo :  url ( "./dev.png" );
+      altura :  90 vh ;
+  }
+  
+  . cabecalho {
+      padding-top :  25 px ;
+      padding-left :  35 px ;
+  }
+  
+  . titulo-cabecalho {
+      tamanho da fonte :  24 px ;
+      cor :  #FFFFFF ; _
+      exibição : em linha;
+  }
+  
+  . link-cabecalho {
+      tamanho da fonte :  14 px ;
+      cor :  #FFFFFF ; _
+      exibição : em linha;
+      margem esquerda :  20 px ;
+      cursor : ponteiro;
+  }
+  
+  h1 {
+      tamanho da fonte :  58 px ;
+      cor :  #FFFFFF ; _
+      posição : relativa;
+      topo :  280px ; _
+      margem esquerda :  35 px ;
+  }
+  
+  formulário {
+      cor de fundo :  # FFFFFF ;
+      raio da borda :  10 px ;
+      flutuar : direito;
+      preenchimento :  20px ; _
+      margem direita :  50 px ;
+      posição : relativa;
+      inferior :  70px ; _
+  }
+  
+  entrada {
+      exibição : bloco;
+      fundo :  # F9F9F9 ;
+      borda :  1 px sólido # E6E6E6 ;
+      raio da borda :  5 px ;
+      altura :  40px ; _
+      largura :  250px ; _
+      margem inferior :  20 px ;
+      padding-left :  10 px ;
+  }
+  
+  área de texto {
+      exibição : bloco;
+      altura :  80px ; _
+      largura :  250px ; _
+      fundo :  # F9F9F9 ;
+      borda :  1 px sólido # E6E6E6 ;
+      raio da borda :  5 px ;
+      margem inferior :  20 px ;
+      padding-left :  10 px ;
+  }
+  
+  . titulo-formulario {
+      tamanho da fonte :  24 px ;
+      cor :  # 252B42 ;
+      margem inferior :  30 px ;
+      text-align : centro;
+  }
+  
+  etiqueta {
+      tamanho da fonte :  14 px ;
+      cor :  # 252B42 ;
+  }
+  
+  botão {
+      largura :  250px ; _
+      altura :  40px ; _
+      cursor : ponteiro;
+      borda : nenhuma;
+      raio da borda :  5 px ;
+      fundo :  # 40BB15 ;
+      cor :  #FFFFFF ; _
+  }
+  
+  . caixa-central {
+      exibição : flexível;
+      justificar-conteúdo : espaçar uniformemente;
+      margem inferior :  50 px ;
+  }
+  
+  . título-meio {
+      tamanho da fonte :  40px ;
+      cor :  # 252B42 ;
+      margem superior :  50 px ;
+      margem inferior :  50 px ;
+      text-align : centro;
+  }
+  
+  . cartão {
+      largura :  300px ; _
+      raio da borda :  10 px ;
+      cor de fundo :  # FFFFFF ;
+      borda :  1 px sólido # A9D6FF ;
+  }
+  
+  . cartão de título {
+      fundo :  # 219653 ;
+      cor :  #FFFFFF ; _
+      text-align : centro;
+      preenchimento :  20px ; _
+      raio da borda :  10 px  10 px  0  0 ;
+  }
+  
+  ul {
+      preenchimento :  20px ; _
+  }
+  
+  li {
+      margem inferior :  5 px ;
+      margem esquerda :  10 px ;
+  }
+  
+  . caixa-inferior {
+      cor de fundo :  # 00095d ;
+  }
+  
+  . título-inferior {
+      cor :  #FFFFFF ; _
+      tamanho da fonte :  40px ;
+      text-align : centro;
+      padding-top :  50 px ;
+  }
+  
+  . paragrafo-inferior {
+      tamanho da fonte :  18 px ;
+      cor :  #FFFFFF ; _
+      text-align : centro;
+      preenchimento :  20 px  50 px  50 px  50 px ;
+  }

@@ -1,0 +1,186 @@
+/*
+    Unidades de Medida
+    px => pixel
+ vh => altura de visão / a Altura da tela divido por 100
+ vw => ver largura / a Largura da tela divido por 100
+    cm => centímetro
+ topo => cima
+ fundo => baixo
+ esquerda => esquerda
+ direito => direita
+ largura => LARGURA
+ altura => ALTURA
+ imagem de fundo => Troca a imagem de fundo
+ tamanho da fonte => Trocar o tamanho do texto
+ cor => Troca a cor do texto
+    font-family => Troca a fonte do texto
+    display => Troca a forma que o elemento se comporta na tela ( Ex: Fica sozinho na linha ou na mesma linha de outros elementos)
+    cursor => Muda o cursor do mouse
+ posição => Servir para definir como eu posicionar os elementos na tela
+ raio-fronteira => Arredonda como bordas
+ fronteira => Muda a cor, o tamanho e o tipo de borda do elemento
+ flutuar => Direciona o elemento para um lado determinado
+ preenchimento => espaçamento interno
+ margem => espaçamento externo
+ text-align => Alinhar o texto
+ href => Local para onde queremos que o link nos inveja
+ opacidade => Transparencia do elemento
+    */
+
+    * {
+      margem: 0;
+      preenchimento: 0;
+      tamanho de caixa: border-box;
+      fonte-família: 'Montserrat', sans-serif;
+  }
+  
+  
+ . caixa-superior {
+      imagem de fundo: url("./dev.png");
+      tamanho de fundo: cobertura;
+      altura: 90vh ;
+  }
+  
+ . cabecalho {
+      preenchimento-top: 25px ;
+      enchimento-esquerda: 35px ;
+  }
+  
+ . titulo-cabecalho {
+      tamanho da fonte: 24px ;
+      cor: branco;
+      exibição: inline;
+  }
+  
+ . link-cabecalho {
+      tamanho da fonte: 14px ;
+      cor:  #FFFFFF;
+      exibição: inline;
+      margem-esquerda: 20px ;
+      cursor: ponteiro;
+      decoração de texto: nenhum;
+  }
+  
+  h1 {
+      tamanho da fonte: 58px ;
+      cor:  #FFFFFF;
+      posição: relativo;
+      topo: 280px ;
+      margem-esquerda: 35px ;
+  }
+  
+  forma {
+      opacidade: 0;
+      transição: opacidade 1s  linear;
+      cor de fundo:  #FFFFFF;
+      raio-fronteira: 10px ;
+      flutuar: à direita;
+      preenchimento: 20px ;
+      margem-direita: 50px ;
+      posição: relativo;
+      fundo: 70px ;
+  }
+  
+ . mostrar-formulario{
+      opacidade: 1;
+  }
+  
+  entrada {
+      exibição: bloco;
+      fundo:  #F9F9F9;
+      border: 1px solid #E6E6E6;
+      border-radius: 5px;
+      height: 40px;
+      width: 250px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+  }
+  
+  textarea {
+      display: block;
+      height: 80px;
+      width: 250px;
+      background: #F9F9F9;
+      border: 1px solid #E6E6E6;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+  }
+  
+  .titulo-formulario {
+      font-size: 24px;
+      color: #252B42;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+  
+  label {
+      font-size: 14px;
+      color: #252B42;
+  }
+  
+  button {
+      width: 250px;
+      height: 40px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background: #40BB15;
+      color: #FFFFFF;
+  }
+  
+  .caixa-central {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+  }
+  
+  #titulo-meio {
+      font-size: 40px;
+      color: #252B42;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+  }
+  
+  .card {
+      width: 300px;
+      border-radius: 10px;
+      background-color: #FFFFFF;
+      border: 1px solid #A9D6FF;
+  }
+  
+  .titulo-card {
+      background: #219653;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px 10px 0 0;
+  }
+  
+  ul {
+      padding: 20px;
+  }
+  
+  li {
+      margem-inferior: 5px ;
+      margem-esquerda: 10px ;
+  }
+  
+ . caixa inferior {
+      cor de fundo:  #00095d;
+  }
+  
+  #titulo-inferior {
+      cor:  #FFFFFF;
+      tamanho da fonte: 40px ;
+      alinhamento de texto: centro;
+      top de enchimento: 50px ;
+  }
+  
+ . paragrafo-inferior {
+      tamanho da fonte: 18px ;
+      cor:  #FFFFFF;
+      alinhamento de texto: centro;
+      preenchimento: 20px  50px  50px  50px ;
+  }
